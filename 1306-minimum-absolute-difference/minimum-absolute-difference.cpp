@@ -26,11 +26,11 @@ public:
         }
         for(int i=0;i+2-1<n;i++){
            if((arr[i+2-1]-arr[i])==d){
-            vector<int>curr;
-            curr.push_back(arr[i]);
-            curr.push_back(arr[i+2-1]);
+            //vector<int>curr;
+            //curr.push_back(arr[i]);
+           // curr.push_back(arr[i+2-1]);
             
-            res.push_back(curr);
+            res.push_back({arr[i],arr[i+2-1]});
            }
         }
         return res;
