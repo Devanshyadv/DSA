@@ -6,7 +6,7 @@ public:
                 return c;
             }
         }
-        // wrap-around case
+       
         return letters[0];
     }
 };
